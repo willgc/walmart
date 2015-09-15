@@ -23,13 +23,16 @@ Você está livre para definir a melhor arquitetura e tecnologias para solucionar 
 Também gostaríamos de acompanhar o desenvolvimento da sua aplicação através do código fonte. Por isso, solicitamos a criação de um repositório que seja compartilhado com a gente. Para o desenvolvimento desse sistema, nós solicitamos que você utilize a sua (ou as suas) linguagem de programação principal. Pode ser Java, JavaScript ou Ruby.
 
  
-
-SoluÃ§Ã£o
+Solução
 -------
 
 **Arquitetura**
 
-O projeto foi desenvolvido usando a Plataforma JEE 7 - Java Enterprise Edition, empregando APIs robustas para persistencia, como a Java Persistence API (JPA),SOAP para Web Services, Além dessas, também foi utilizado o Simple Logging Facade for Java (SL4J), como facade para o Log4j, renomado framework para logging de aplicações. Para criação de testes unitários foi utilizado o JUnit, na versÃ£o 4.11.
+desenvolvimento usando a Plataforma JEE 7 - Java Enterprise Edition, 
+Java Persistence API (JPA),
+SOAP para Web Services, 
+Simple Logging Facade for Java (SL4J), como facade para o Log4j. 
+Testes unitários foi utilizado o JUnit, na versÃ£o 4.11.
 
 
 **Softwares necessários**
@@ -40,18 +43,7 @@ O projeto foi desenvolvido usando a Plataforma JEE 7 - Java Enterprise Edition, 
 **Execução**
 
   * Cadastrar Malha
-  oding of the parameter value marcado e Post QueryString marcado.  
-
   * Calcular Rota de Menor Custo
   
-
-
-**Premissas**
-
-  1. Não existe duas malhas com mesmo nome.
-  1. Não existe dois pontos com mesmo nome na mesma malha.
-  1. Não existe uma e apenas uma distÃ¢ncia entre um ponto de origem A e um ponto de destino B pertencentes a uma malha.
-  1. O calulo da rota de menor custo é realizado apenas se e somente se o ponto de origem e o ponto de destino pertencem a mesma malha.
-
 
 
